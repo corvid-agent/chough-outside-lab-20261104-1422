@@ -1,0 +1,18 @@
+{
+  "timestamp": 1793803991,
+  "commit": "69fa6783100f168322e40c63774b795b41d4238d",
+  "contract_digest": "aa43a6c31ac850812c5136b8f0019beb886edadc4b49e97a491475cedfa8c9d5",
+  "execution_digest": "37a282531a8e2f74e198dc7722823b1dfb1b73cbc6bd9a6f2d1f6fd60612a0b4",
+  "workspace_digest": "7023ef26bfc196ba472e0053dba4b614f9b9fe084bcf231ad4ec78a380834441",
+  "passed": true,
+  "commands": [
+    {
+      "command": "specsync check --spec shipping",
+      "success": true,
+      "exit_code": 0
+    }
+  ],
+  "requirement_ids": [
+    "REQ-shipping-002"
+  ]
+}

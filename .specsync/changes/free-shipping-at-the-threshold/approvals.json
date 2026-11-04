@@ -1,0 +1,42 @@
+{
+  "approvals": [
+    {
+      "gate": "definition",
+      "actor": "outside-tester",
+      "timestamp": 1793803949,
+      "digest": "aa43a6c31ac850812c5136b8f0019beb886edadc4b49e97a491475cedfa8c9d5",
+      "note": null,
+      "approved_scope": {
+        "schema_version": 1,
+        "change_id": "free-shipping-at-the-threshold",
+        "title": "Free shipping at the threshold",
+        "description": "Free shipping at the threshold",
+        "kind": "feature",
+        "affected_specs": [
+          "shipping"
+        ],
+        "affected_paths": [
+          "src/lib.rs",
+          "tests/"
+        ],
+        "no_spec_change": false,
+        "no_spec_change_rationale": null,
+        "acceptance_criteria": [
+          "An order of exactly 5000 cents ships free",
+          "An order under 5000 cents pays the standard fee"
+        ],
+        "dependencies": [],
+        "supersedes": [],
+        "answers": {
+          "architecture_risk": "no",
+          "constraints": "none",
+          "public_contract": "yes"
+        }
+      },
+      "approved_delta_digests": {
+        "shipping": "d8afa988d512337af443cac0a5ba0c7224772615933a59e64a83703bf555c73c"
+      }
+    }
+  ],
+  "reopenings": []
+}

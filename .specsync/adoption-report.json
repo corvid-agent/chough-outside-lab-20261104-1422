@@ -1,0 +1,9 @@
+{
+  "bootstrap_policy": {
+    "base_commit": "41249f2b8ac11c3912397b49ca6b8600d5839e28",
+    "digest": "38214996b3a6f1b0aff10b09fa094ca1c4bfa023b64df4d068bfe1471a5f4a21",
+    "path": ".specsync/sdd.json"
+  },
+  "generated_at": 1793803844,
+  "requirements_needing_ids": []
+}
