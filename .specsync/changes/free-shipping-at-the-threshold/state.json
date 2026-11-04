@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "workflow_version": 2,
+  "workflow_origin_version": 2,
+  "id": "free-shipping-at-the-threshold",
+  "slug": "free-shipping-at-the-threshold",
+  "title": "Free shipping at the threshold",
+  "description": "Free shipping at the threshold",
+  "kind": "feature",
+  "state": "verifying",
+  "canonical_applied": true,
+  "base_commit": "384be71275c70af2bedad7808d214958aa0071d6",
+  "created_at": 1793803876,
+  "updated_at": 1793803991,
+  "affected_specs": [
+    "shipping"
+  ],
+  "affected_paths": [
+    "src/lib.rs",
+    "tests/"
+  ],
+  "no_spec_change": false,
+  "no_spec_change_rationale": null,
+  "acceptance_criteria": [
+    "An order of exactly 5000 cents ships free",
+    "An order under 5000 cents pays the standard fee"
+  ],
+  "selected_artifacts": [
+    "context",
+    "requirements",
+    "plan",
+    "tasks",
+    "testing",
+    "docs"
+  ],
+  "dependencies": [],
+  "answers": {
+    "architecture_risk": "no",
+    "constraints": "none",
+    "public_contract": "yes"
+  }
+}
